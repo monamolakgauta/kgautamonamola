@@ -1,0 +1,1039 @@
+/*BODY  CSS													        1.0
+============================================================*/
+
+html,body {
+    position: relative;
+    display: block;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+
+
+/*MARGIN LEFT													      1.1
+============================================================*/
+
+.margin-left {
+	margin-left: 1%;
+}
+
+/*MAIN													            2.0
+============================================================*/
+
+.main {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+/*INDEX PAGE SECTION_ONE										   3.0
+============================================================*/
+
+.index-section-one {
+	width: 100%;
+	height: 100%;
+	background-color: #384D5E;
+	background-image: url(../images/w-image.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+/*INDEX CONTENT_ONE										         3.1
+============================================================*/
+
+.index-content-one p {
+	display: inline;
+	font-family: 'Anton', sans-serif;
+	font-size: 10em;
+	position: relative;
+	top: 150px;
+	color: #8FE2DA;
+}
+
+
+
+/*INDEX CONTENT_TWO										         3.2
+============================================================*/
+
+.index-content-two p {
+	display: inline;
+	font-family: 'Anton', sans-serif;
+	font-size: 2em;
+	position: relative;
+	top: 200px;
+	color: #F75E4C;
+	padding: 0.5%;
+}
+
+
+/*INDEX CONTENT_THREE										      3.3
+============================================================*/
+
+.index-content-three p {
+	display: inline;
+	font-family: 'Anton', sans-serif;
+	font-size: 2em;
+	position: relative;
+	top: 220px;
+	color: #F5C839;
+	padding: 0.5%
+}
+
+/*INDEX CONTENT_FOUR										         3.4
+============================================================*/
+
+.index-content-four p {
+	display: inline;
+	font-family: 'Anton', sans-serif;
+	font-size: 2em;
+	position: relative;
+	top: 225px;
+	color: #DFA430;
+	padding: 0.5%;
+}
+
+/*INDEX CONTENT_FIVE										         3.5
+============================================================*/
+
+.index-content-five p {
+	display: inline;
+	font-family: 'Anton', sans-serif;
+	font-size: 2em;
+	position: relative;
+	top: 250px;
+	color: #A08126;
+	padding: 0.5%;
+}
+
+/*INDEX NAV										                  4.0
+============================================================*/
+
+nav {
+	width: 100%;
+	height: 60px;
+	background-color: #1B2E3F;
+	position: fixed;
+}
+
+nav a {
+	padding: 4%;
+	color: #FFFFFF;
+	position: relative;
+	top: 20px;
+	font-family: 'Anton', sans-serif;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	width: 50px;
+	height: 10px;
+	
+}
+
+/*SUB ONE										                 5.0
+============================================================*/
+
+.sub-one {
+	width: 20.5%;
+	height: 100%;
+	background-color: #1E2F41;
+	position: relative;
+	bottom: 680px;
+	display: none;
+}
+
+.sub-one-content-one p {
+	color: #FFFFFF;
+	display: inline;
+	font-family: 'Anton', sans-serif;
+	position: relative;
+	top: 100px;
+}
+
+/*SUB TWO										                 5.1
+============================================================*/
+
+.sub-two {
+	width: 20.5%;
+	height: 100%;
+	background-color: #1E2F41;
+	position: relative;
+	bottom: 680px;
+	display: none;
+}
+
+.sub-two-content-one p {
+	color: #FFFFFF;
+	display: inline;
+	font-family: 'Anton', sans-serif;
+	position: relative;
+	top: 100px;
+}
+
+.sub-two-content-two p {
+	color: #FFFFFF;
+	display: inline;
+	position: relative;
+	top: 120px;
+}
+
+.sub-two-content-three p {
+	color: #FFFFFF;
+	display: inline;
+	position: relative;
+	top: 200px;
+}
+
+.sub-two-content-four p {
+	color: #FFFFFF;
+	display: inline;
+	position: relative;
+	top: 300px;
+}
+
+/*SKILL PAGE(NAV)										            6.0
+============================================================*/
+.skill-nav {
+	position: static;
+
+}
+
+.skill-nav a:hover {
+	width: 50px;
+	height: 50px;
+	background-color: #FFFFFF;
+	color: #1B2E3F;
+}
+
+/*SKILL PAGE(ALL CSS)										      6.1
+============================================================*/
+.home {
+	background-image: url(../images/e-image.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.skill-about-main-container {
+	display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: static;
+}
+
+.horizontal-container {
+	position: relative;
+    display: table;
+    table-layout: fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    width:200%;
+    height:100%;
+}
+
+.page {
+    position: relative;
+    display: table-cell;
+    top:0;
+    bottom:100px;
+    right:0;
+    left:0;
+    width: 200%;
+    height: 100%;
+}
+
+.two {
+	background-color: #90e3db;
+}
+
+
+
+.page-four-p p {
+	font-size: 1.5em;
+}
+
+.myCellNumber {
+	display: none;
+}
+
+.home a {
+	color: #1B2E3F;
+	font-size: 5em;
+	position: relative;
+	top: 350px;
+	font-family: 'Anton', sans-serif;
+}
+
+.home p {
+	color: #1B2E3F;
+}
+
+.two a {
+	font-family: 'Anton', sans-serif;
+	color: #FFFFFF;
+	font-size: 2em;
+	position: relative;
+	top: 650px;
+}
+
+.two img {
+	width: 100px;
+	position: relative;
+	bottom: 180px;
+}
+
+.goButton:hover {
+	text-decoration: none;
+}
+
+
+/*SKILL PAGE(page-two-content-one-container)					6.2
+============================================================*/
+.page-two-content-one-container {
+	position: relative;
+	top: 50px;
+}
+.page-two-content-one-container p {
+	display: inline;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	font-family: 'Anton', sans-serif;
+	padding: 0.5%;
+}
+
+/*SKILL PAGE(page-two-content-two-container)					6.3
+============================================================*/
+
+.page-two-content-two-container {
+	position: relative;
+	top: 60px;
+}
+.page-two-content-two-container p {
+	color: #FFFFFF;
+	font-size: 1.2em;
+}
+
+/*SKILL PAGE(page-two-content-three-container)			   6.4
+============================================================*/
+.page-two-content-three-container {
+	position: relative;
+	top: 80px;
+}
+.page-two-content-three-container p {
+	display: inline;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	font-family: 'Anton', sans-serif;
+	padding: 0.5%;
+}
+
+/*SKILL PAGE(page-two-content-four-container)			   6.5
+============================================================*/
+
+.page-two-content-four-container {
+	position: relative;
+	top: 100px;
+}
+
+.page-two-content-four-container p {
+	color: #FFFFFF;
+	font-size: 1.2em;
+}
+
+/*SKILL PAGE(page-two-content-five-container)			   6.6
+============================================================*/
+
+.page-two-content-five-container {
+	position: relative;
+	top: 120px;
+}
+
+.page-two-content-five-container p {
+	display: inline;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	font-family: 'Anton', sans-serif;
+	padding: 0.5%;
+}
+
+/*SKILL PAGE(page-two-content-six-container)			      6.7
+============================================================*/
+
+.page-two-content-six-container {
+	position: relative;
+	top: 150px;
+}
+
+.page-two-content-six-container p {
+	color: #FFFFFF;
+	font-size: 1.2em;
+}
+
+.images-skill {
+	position: relative;
+	top: 250px;
+}
+
+/*SKILL PAGE(buttons)			   								6.9
+============================================================*/
+
+
+.button-container {
+	position: relative;
+	top: 200px;
+}
+
+/*ABOUT PAGE(MAIN-CONTAINER)							         7.0
+============================================================*/
+
+.about-main-container {
+	width: 100%;
+	height: 100%;
+	background-color: #f5c839;
+	color: #FFFFFF;
+	background-image: url(../images/k-image.png);
+	background-repeat: no-repeat;
+	background-size: cover;;
+}
+
+/*ABOUT PAGE(MAIN-CONTENT-ONE)							      7.1
+============================================================*/
+
+.about-content-one {
+	position: relative;
+	top: 150px;
+	color: #014641;
+}
+
+.pic {
+	width: 400px;
+	position: relative;
+	top: 100px;
+	
+}
+
+
+.myNames p {
+	display: inline;
+	font-family: 'Anton', sans-serif;
+	position: relative;
+	top: 120px;
+   font-size: 1.2em;
+   color: #014641;
+}
+
+/*ABOUT PAGE(NAV)							                     7.2
+============================================================*/
+.about-nav a:hover {
+	
+}
+
+/*CONTACT PAGE(CONTACT-MAIN-CONTAINER)							8.0
+============================================================*/
+
+.contact-contact-main-container {
+	width: 100%;
+	height: 100%;
+	background-color: #384D5E;
+}
+
+/*CONTACT PAGE(NAV)							                  8.1
+============================================================*/
+
+.contact-nav a:hover {
+	background-color: #384D5E;
+}
+
+/*CONTACT PAGE(contact-content-one)							   8.2
+============================================================*/
+
+.contact-content-one p {
+	display: inline;
+	font-family: 'Anton', sans-serif;
+	color: #FFFFFF;
+	position: relative;
+	top: 200px;
+	font-size: 4em;
+	padding: 0.5%;
+}
+
+
+/*CONTACT PAGE(skill-content-two)							   8.3
+============================================================*/
+
+.contact-content-two {
+	position: relative;
+	top: 200px;
+	color: #FFFFFF
+}
+
+/*CONTACT PAGE(contact-content-three)							8.4
+============================================================*/
+
+.contact-content-three p {
+	display: inline;
+	font-family: 'Anton', sans-serif;
+	color: #FFFFFF;
+	position: relative;
+	top: 250px;
+	font-size: 1.5em;
+	padding: 0.5%;
+}
+
+/*CONTACT PAGE(contact-button)							      8.5
+============================================================*/
+
+.contact-me-button {
+	padding: 10px;
+	background-color: #384D5E;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	position: relative;
+	top: 200px;
+}
+
+.contact-me-button:hover {
+	background-color: #FFFFFF;
+	border: 2px solid #76A2C7;
+	color: #76A2C7;
+}
+
+
+/*CONTACT PAGE(contact-content-four)							8.6
+============================================================*/
+
+.contact-content-four {
+	display: none;
+}
+.contact-content-four p {
+	display: inline;
+	font-family: 'Anton', sans-serif;
+	position: relative;
+	top: 300px;
+	font-size: 2em;
+	color: #f5c839;
+}
+
+/*PROJECT PAGE(project-main-container)						   9.0
+============================================================*/
+
+.project-main-container {
+	width: 100%;
+	height: 100%;
+	background-color: #37788a;
+	text-align: center;
+	color: #FFFFFF;
+	background-image: url(../images/b-image.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/*PROJECT PAGE(project-one)						            9.1
+============================================================*/
+
+.project-one {
+	position: relative;
+	top: 100px;
+}
+
+.heading {
+	font-family: 'Anton', sans-serif;
+	font-size: 2em;
+	color: #17283a;
+}
+
+.viewLive-one {
+	width: 150px;
+	padding: 10px;
+	background-color: #3b7c8e;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+.viewLive-one:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+.kgauta {
+	float: left;
+	width: 50%;
+	height: 50%;
+	position: relative;
+	top: 300px;
+	margin-left: 15%;
+}
+/*PROJECT PAGE(project-two)						            9.2
+============================================================*/
+
+.project-two {
+	position: relative;
+	top: 150px;
+}
+
+.heading-two {
+	font-family: 'Anton', sans-serif;
+	font-size: 2em;
+	color: #17283a;
+}
+.viewLive-two {
+	width: 150px;
+	padding: 10px;
+	background-color: #3d7f8f;
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+}
+.viewLive-two:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+
+
+
+/*PROJECT PAGE(project-three)						            9.3
+============================================================*/
+
+.project-three {
+	position: relative;
+	top: 200px;
+}
+
+.heading-three {
+	font-family: 'Anton', sans-serif;
+	font-size: 2em;
+	color: #17283a;
+}
+.viewLive-three {
+	width: 150px;
+	padding: 10px;
+	background-color: #3d7f8f;
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+}
+
+.movie-pic {
+	float: left;
+	width: 50%;
+	height: 50%;
+	position: relative;
+	top: 300px;
+	margin-left: 15%;
+}
+.viewLive-three:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+
+
+/*PROJECT PAGE(project-four)						            9.4
+============================================================*/
+
+.project-four {
+	position: relative;
+	top: 250px;
+}
+
+.heading-four {
+	font-family: 'Anton', sans-serif;
+	font-size: 2em;
+	color: #17283a;
+}
+.viewLive-four {
+	width: 150px;
+	padding: 10px;
+	background-color: #3d7f8f;
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+}
+.animation {
+	float: left;
+	width: 50%;
+	height: 50%;
+	position: relative;
+	top: 300px;
+	margin-left: 15%;
+}
+.viewLive-four:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+
+
+/*PROJECT PAGE(project-main-container)				     9.5
+============================================================*/
+
+.project-nav a:hover {
+
+}
+
+/*PROJECT PAGE(project-one-info)						  9.6
+============================================================*/
+
+.project-one-info {
+	width: 325px;
+	height: 100%;
+	float: right;
+	background-color: #1b2c3e;
+	text-align: center;
+}
+
+h5 {
+	font-family: 'Anton', sans-serif;
+	color: #FFFFFF;
+	position: relative;
+	top: 100px;
+}
+
+.objectives {
+	text-align: center;
+	color: #FFFFFF;
+	position: relative;
+	top: 100px;
+}
+
+.objectives p {
+	color: #FFFFFF;
+	text-decoration: none
+}
+
+.projetViewer {
+	padding: 10px;
+	position: relative;
+	top: 100px;
+	background-color: #1b2c3e;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+}
+
+.projetViewer:hover {
+	background-color: #FFFFFF;
+	color: #1b2c3e;
+}
+
+.pictures {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+/*DETAILS_PAGE					  						9.6
+============================================================*/
+
+.details-page {
+	width: 100%;
+	height: 100%;
+}
+
+.four p {
+	color: #FFFFFF;
+	display: inline;
+}
+
+.skills {
+	color: #FFFFFF;
+	font-size: 2.5em;
+	position: relative;
+	top: 120px;
+}
+
+.smallcopy {
+	color: #FFFFFF;
+}
+
+.skills p{
+	display: inline;
+	position: relative;
+	top: -300px;
+}
+
+
+
+
+/*Devices					  						
+============================================================*/
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+nav a {
+	padding: 1%;
+}
+.index-content-one p {
+	font-size: 6em;
+}
+.myCar {
+	position: relative;
+	top: -150px;
+	z-index: 99;
+	width: 200px;
+}
+.skills {
+	color: #FFFFFF;
+	font-size: 1.5em;
+	position: relative;
+	top: -20px;
+}
+.skill-nav {
+	font-size: 10px;
+}
+.page-two-content-one-container {
+	top: 20px;
+}
+.page-two-content-one-container p {
+	font-size: 1.5em;
+}
+.page-two-content-two-container {
+	top: 15px;
+}
+.page-two-content-three-container {
+	top: 25px;
+}
+.page-two-content-four-container {
+	top: 30px;
+}
+.page-two-content-five-container {
+	top: 35px;
+}
+.page-two-content-six-container {
+	top: 40px;
+}
+.page-three-content-one-container {
+	top: 60px;
+
+}
+.project-nav {
+	font-size: 0.7em;
+}
+
+.project-one {
+	top: 80px;
+}
+.heading {
+	font-size: 1.5em;
+}
+.project-two {
+	top: 100px;
+}
+.heading-two {
+	font-size: 1.5em;
+}
+.project-three {
+	top: 125px;
+}
+.heading-three {
+	font-size: 1.5em;
+}
+.project-four {
+	top: 150px;
+}
+.heading-four {
+	font-size: 1.5em;
+}
+.pic {
+	width: 250px;
+}
+.about-nav a {
+	font-size: 0.7em;
+}
+.myNames p {
+	top: 100px;
+   font-size: 1em;
+}
+.about-content-one {
+	top: 120px;
+}
+.contact-nav a {
+	font-size: 10px;
+}
+.contact-content-one p {
+	top: 100px;
+	font-size: 2.5em;
+}
+.contact-content-two {
+	top: 150px;
+}
+.contact-me-button {
+	top: 160px;
+}
+.contact-content-three p {
+	top: 200px;
+}
+.contact-content-four p {
+	top: 225px;
+}
+
+}
+
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  	.myCar {
+	position: relative;
+	top: -300px;
+	z-index: 99;
+	width: 400px;
+}
+
+.page-two-content-one-container {
+	top: 80px;
+}
+.page-two-content-one-container p {
+	font-size: 1.5em;
+}
+.page-two-content-two-container {
+	top: 90px;
+}
+.page-two-content-three-container {
+	top: 120px;
+}
+.page-two-content-four-container {
+	top: 130px;
+}
+.page-two-content-five-container {
+	top: 180px;
+}
+.page-two-content-six-container {
+	top: 200px;
+}
+.page-three-content-one-container {
+	top: 150px;
+
+}
+
+}
+
+
+
+@media screen 
+  and (min-device-width: 1600px) 
+  and (max-device-width: 1920px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  	.myCar {
+	position: relative;
+	top: -350px;
+	z-index: 99;
+	width: 500px;
+}
+
+.skills {
+	color: #FFFFFF;
+	font-size: 4em;
+	position: relative;
+}
+.page-two-content-one-container {
+	top: 150px;
+}
+.page-two-content-two-container {
+	top: 170px;
+}
+
+.page-two-content-three-container {
+	top: 200px;
+}
+.page-two-content-four-container {
+	top: 225px;
+}
+.page-two-content-five-container {
+	top: 300px;
+}
+.page-two-content-six-container {
+	top: 325px;
+}
+
+.page-three-content-one-container {
+	top: 200px;
+
+}
+.page-three-content-one-container img {
+	width: 200px;
+}
+.pic{
+	width: 500px;
+	position: relative;
+	top: 200px;
+	
+}
+.myNames p {
+	top: 210px;
+   font-size: 1.2em;
+}
+.about-content-one {
+	top: 250px;
+}
+
+  }
+
+  @media only screen 
+  and (min-device-width: 480px) 
+  and (max-device-width: 680px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	.skill-nav a {
+  		font-size: 0.7em;
+  	}
+  	.project-nav a {
+  		font-size: 0.7em;
+  	}
+  	.about-nav a {
+  		font-size: 0.7em;
+  	}
+  	.contact-nav a {
+  		font-size: 0.7em;
+  	}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

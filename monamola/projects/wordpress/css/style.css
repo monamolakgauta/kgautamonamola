@@ -1,0 +1,258 @@
+body {
+    text-align: center;
+}
+
+/* nav css*/
+nav {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+   
+  
+}
+nav a {
+    position: relative;
+    top: 50px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+ 
+}
+
+nav a:hover {
+    width: px;
+    height: px;
+    background-color: white;
+    opacity: 1;
+    
+        
+}
+
+/* nav css ends*/
+
+/* content / body css */
+
+.one {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    
+}
+
+.two {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+   
+}
+
+.three {
+    width: 100%;
+    height: 930px;
+    text-align: center;
+}
+
+.four {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+.logo {
+    color: white;
+    font-size: 5em;
+    margin-left: 1000px;
+}
+
+.nav-two p {
+    display: inline-block;
+    padding: ;
+    
+}
+
+#firstButton {
+    width: 100%;
+    height: 35px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+#p1 {
+    display: none;
+}
+
+.social {
+    width: 100%;
+    height: 172px;
+    background-color: black;
+    display: none;
+  
+}
+
+.word {
+    color: white;
+    font-size: 2em;
+    display: none;
+}
+
+
+
+h6 {
+    color: white;
+    margin-left: 75px;
+    position: relative;
+    
+}
+
+
+
+
+#links {
+    padding: 10px;
+}
+
+.net {
+    color: white;
+    font-size: 40px;
+}
+
+i{
+    padding: 50px;
+    
+}
+
+.chocolate {
+    width: 400px;
+    margin-top: 200px;
+}
+
+.info {
+    background-color: white;
+    padding: 20px;
+}
+
+.cake {
+    font-size: 1em;
+    padding: 20px;
+}
+
+.lemon {
+    width: 400px;
+}
+
+.shop {
+    width: 500px;
+    padding: 25px;
+}
+
+#map {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    margin-top: 30px;
+}
+.contact {
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    margin-top: 15px;
+    opacity: 0.8;
+}
+
+.formC {
+    margin-top: 50px;
+}
+
+#myTextbox {
+    width: 420px;
+}
+
+#myTextbox2 {
+    width: 420px;
+}
+
+#myTextbox3 {
+    width: 420px;
+}
+
+#submit {
+    width: 500px;
+    margin-top: 15px;
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+
+#submit:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.post-container {
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.post-container h1 {
+    background-color: gray;
+}
+
+/* content / body css ends*/
+
+/* footer css*/
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    margin-top: 100px;
+    color: white;
+    
+}
+
+.links a {
+    display: inline;
+}
+
+.copy {
+    margin-top: 50px;
+}
+
+.article-header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.article-info {
+    float: left;
+    width: 50%
+}
+
+.article-info2 {
+    float: left;
+    width: 50%
+}
+
+.article-pic {
+    width: 400px;
+}
